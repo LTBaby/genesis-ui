@@ -2,11 +2,11 @@
   width: 400px;
   height: 200px;
   background-color: #ff1b1b;
-  position: relative;
   top: 0;
   left: 0;
   height: 100%;
   width: 300px;
+  position: fixed;
 }
 
 mat-drawer-content {

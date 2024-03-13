@@ -9,11 +9,13 @@ import { SidebarComponent } from './sidebar/sidebar.component';
 import { DashboardWidgetComponent } from './dashboard-widget/dashboard-widget.component';
 
 import {MatIconModule} from '@angular/material/icon';
+import { InventoryComponent } from './inventory/inventory.component';
 @NgModule({
   declarations: [
     AppComponent,
     DashboardComponent,
-    DashboardWidgetComponent
+    DashboardWidgetComponent,
+    InventoryComponent
   ],
   imports: [
     BrowserModule,
