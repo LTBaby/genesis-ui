@@ -9,14 +9,14 @@
     <mat-divider></mat-divider>
     <div class="sidenav-btn-container">
       <button (click)="router.navigate(['dashboard'])" [class]="router.url == '/dashboard'? 'sidenav-btn sidenav-btn-active' : 'sidenav-btn '" mat-flat-button color="primary">
-        <mat-icon class="icon-in-menu">home</mat-icon>
+        <mat-icon class="icon-in-menu">dashboard</mat-icon>
         <label>Dashboard</label>
       </button>
     </div>
     <div class="sidenav-btn-container">
-      <button (click)="router.navigate(['/'])" class="sidenav-btn" mat-flat-button color="primary">
-        <mat-icon class="icon-in-menu">home</mat-icon>
-        <label>Home</label>
+      <button (click)="router.navigate(['inventory'])" [class]="router.url == '/inventory'? 'sidenav-btn sidenav-btn-active' : 'sidenav-btn '" mat-flat-button color="primary">
+        <mat-icon class="icon-in-menu">inventory</mat-icon>
+        <label>Inventory</label>
       </button>
     </div>
     <div class="sidenav-btn-container">
